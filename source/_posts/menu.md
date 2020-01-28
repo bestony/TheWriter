@@ -1,37 +1,41 @@
 ---
 title: menu
 ---
-- [前言]()
+- [前言](/perface)
 - 理论篇
-	- 为什么你要写作 
-	- 关于技术写作的那些错误思想
-	- 一切写作，从写开始 
-	- 写作的灵感从哪来？又要到哪里去？ 
-	- 好的标题，没那么坏  
-	- Word or Markdown？排版并不难 
+	- [为什么你要写作](/why-you-should-write)
+	- [关于技术写作的那些错误思想](/misconceptions)
+	- [一切写作，从写开始](/start-from-writting)
+	- [写作的灵感从哪来？又要到哪里去？](/about-idea)
+	- [好的标题，没那么坏](/good-title) 
+	- [Word or Markdown？排版并不难](/word)
 - 实战篇
-	- 如何读懂一篇文章 
-	- 如何选择题目 
-	- 如何写作命题作文
-	- 如何设计一篇文章的骨架
-	- 如何修改一篇文章
-	- 如何推广一篇文章
-	- 如何解决写作没有时间的问题
-	- 如何以读书促进写作
+	- [如何读懂一篇文章](/how-to-read-a-article)
+	- [如何选择题目](/how-to-choose-a-title)
+	- [如何写作命题作文](/how-to-write-propositional-composition)
+	- [如何设计一篇文章的骨架](/how-to-design-skeleton)
+	- [如何修改一篇文章](/how-to-modify)
+	- [如何推广一篇文章](/how-to-spread)
+	- [如何解决写作没有时间的问题](/how-to-make-time)
+	- [如何以读书促进写作](/how-to-read-and-write)
+	- [如何为你的文章起一个好的标题](/how-to-generate-title)
 	- 如何从工作中找到可以写作的指南
 - 补充内容
-	- 海量信息输入指南 
-	- 素材管理指南 
-	- CC 协议指南
-	- Markdown 贴图指南
-	- 大纲类工具的使用
-	- 思维导图的使用
-	- 移动端写作指南 
-	- 文章贴代码指南
-	- 一些常见的文章写作指南
+	- [海量信息输入指南](/information)
+	- [素材管理指南](/assets) 
+	- [CC 协议指南](/cc-guide)
+	- [Markdown 贴图指南](/pasteimage)
+	- [大纲类工具的使用](/outliner)
+	- [思维导图的使用](/mindmap)
+	- [移动端写作指南](/mobile)
+	- [文章贴代码指南](/pastecode)
+	- [一些常见的文章写作指南](/write-guide)
 	- 聊聊排版
 	- 新媒体写作指南
 	- 新媒体排版指南
 	- 如何又好又快的搜索
 	- 推荐阅读书籍
-- [后记]()
+- Q&A
+	- [第一期](/qa1)
+	- [第二期](/qa2)
+- [后记](/postscript)
