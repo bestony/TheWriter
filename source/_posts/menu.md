@@ -1,35 +1,37 @@
 ---
 title: menu
 ---
-- [前言](/perface)
-- [理论篇](/theory)
-	- [远程工作是什么](/what-is-remote)
-	- [什么样的工种适合远程工作](/jobs)
-	- [远程工作对于雇主的价值](/value-to-employers)
-	- [远程工作对于雇员的价值](/value-to-employees)
-	- [远程工作和外包的区别](/compared-with-outsource-project)
-	- [采用远程工作需要考虑的问题](/some-questions)
-	- [远程工作的劣势](/disadvantage)
-- [经验篇](/experience)
-	- [雇员远程工作经验](/experience-by-employees)
-	- [雇主远程工作经验](/experience-by-employers)
-- [工具篇](#)
-	- [远程团队工作流](/workflows)
-	- [远程团队项目管理工具](/project-management)
-	- [远程团队任务管理工具](/task-management)
-	- [远程团队沟通工具](/communication-tools)
-	- [远程团队时间管理工具](/time-management)
-	- [远程团队代码管理工具](/code-management)
-	- [远程团队设计管理工具](/design-management)
-	- [远程团队会议工具](/meeting-tools)
-- [访谈篇](/interview)
-	- [Tower 团队 48 个月远程实践](/interview-by-tower)
-	- [从 300 到 300 万，一个远程外包团队的发展历程和经验](/interview-by-deepdevelop)
-	- [从 300 万到 1000 万,DeepDevelop 外包业务第二阶段总结](/interview-by-deepdevelop-1)
-- [资料篇](/reference)
-	- [推荐书籍](/books)
-	- [推荐播客](/podcast)
-	- [推荐网站](/website)
-- [结语](/conclusion)
-- [更新记录](/changelog)
-- [关于我](/about-me)
+- [前言]()
+- 理论篇
+	- 为什么你要写作 
+	- 关于技术写作的那些错误思想
+	- 一切写作，从写开始 
+	- 写作的灵感从哪来？又要到哪里去？ 
+	- 好的标题，没那么坏  
+	- Word or Markdown？排版并不难 
+- 实战篇
+	- 如何读懂一篇文章 
+	- 如何选择题目 
+	- 如何写作命题作文
+	- 如何设计一篇文章的骨架
+	- 如何修改一篇文章
+	- 如何推广一篇文章
+	- 如何解决写作没有时间的问题
+	- 如何以读书促进写作
+	- 如何从工作中找到可以写作的指南
+- 补充内容
+	- 海量信息输入指南 
+	- 素材管理指南 
+	- CC 协议指南
+	- Markdown 贴图指南
+	- 大纲类工具的使用
+	- 思维导图的使用
+	- 移动端写作指南 
+	- 文章贴代码指南
+	- 一些常见的文章写作指南
+	- 聊聊排版
+	- 新媒体写作指南
+	- 新媒体排版指南
+	- 如何又好又快的搜索
+	- 推荐阅读书籍
+- [后记]()
