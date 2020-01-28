@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 书名
-subtitle: 副标题
-description: '描述'
-keywords: 关键词
+title: 给程序员的写作课
+subtitle: 一个面向程序员的实用写作指南
+description: '给程序员的写作课，一个面向程序员的实用写作指南'
+keywords: 写作,程序员,写作课,实用写作
 author: 白宦成
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://remoteok.cn
+url: https://thewriter.dev
 root: /
 permalink: :title/
 permalink_defaults:

@@ -14,7 +14,7 @@ comments:
   utterances:
     enable: true
     user: bestony
-    repo: # 改成 Repo 名
+    repo: TheWriter
     theme: github-light # github-light | github-dark | github-dark-orange | icy-dark | dark-blue | photon-dark
   disqus:
     enable: false
