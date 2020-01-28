@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          大纲类工具的使用 - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="大纲类工具的使用">大纲类工具的使用</h1>
+<p>在写作的时候，大家一般都习惯使用思维导图工具来建立我们的文章的大纲和整体结构，在这一节课中，我希望介绍另外一个工具——大纲类型的工具，来帮助你完成你的写作任务。</p>
+<p>大纲工具在工作机理上和思维导图相差无几，其数据都可以被解析为树状的结构，不同的是，大纲工具因为有明确的先后顺序，更加适合我们建设自己的写作框架。</p>
+<p>大纲工具有很多，我自己用的比较多的是 OmniGroup 公司的 OmniOutliner，不过这款工具仅有 macOS 的版本，因此，我这里为你推荐的是国内一家公司出品的产品——<a href="https://mubu.com/inv/133506" target="_blank" rel="noopener">幕布</a>，幕布是一款云端的产品，可以掌握你在云端完成所有的工作。</p>
+<h2 id="幕布的一些基础概念">幕布的一些基础概念</h2>
+<p>在幕布中有三个概念，分别是文件夹、文档、条目，我们使用文件夹来区分不同的项目，比如说，你写的 GitChat 文章可以单独放一个目录，目录下不同的文档对应不同的 Chat 文章。</p>
+<p>文档则是具体的事务，比如本节课程，就是一个文档，凡涉及到本节课程的内容，都会在这个文档中。</p>
+<p>条目则是文档中的一条条内容，也是我们在使用幕布时主要写的内容。</p>
+<p>在了解了这些基础概念以后，我们来开始做一些基础的使用。</p>
+<h2 id="幕布的使用">幕布的使用</h2>
+<h3 id="创建文档">创建文档</h3>
+<p><img src="https://postimg.aliavv.com/mbp/qkc2b.jpg" alt=""></p>
+<p>在幕布中创建文档是很容易的，你可以按下快捷键 <code>alt + n</code> 来创建一个文件，或者点击上方的新建 —— 新建文档来创建一个新的文档。</p>
+<p>在进入新文档的界面后，要及时设定文档的主题，以引导我们后续进行思考和归纳整理。</p>
+<p><img src="https://postimg.aliavv.com/mbp/jf6lm.jpg" alt=""></p>
+<p><strong>主题的设定有助于我们后续在编写新的条目时，时刻思考当前的条目是否和我们的目标一致。</strong></p>
+<h3 id="创建条目">创建条目</h3>
+<p>在完成了文档的创建以后，我们就可以开始进行条目的创建了。直接按下回车就会进入到条目创建的区域，输入我们想要输入的内容，再按下回车，就可以继续创建新的内容了。</p>
+<p>基础的创建比较简单，我主要是要介绍一些条目的基本操作给你，方便你更好的完成大纲的建立。</p>
+<p>你将鼠标指针放在条目前的小圆点上，会弹出一个菜单，可以调整当前条目的属性。通过设置属性，可以实现配置不同样式的条目。不同样式的条目可以让我们能够对不同类型的条目进行加粗、标重点等， 从而让我们可以在写作的时候有所关注，不会错过重点。</p>
+<p><img src="https://postimg.aliavv.com/mbp/20upq.jpg" alt=""></p>
+<p>你可以在条目中设定层级、设定颜色、添加图片等，从而实现不同风格的条目。就像这样<br>
+<img src="https://postimg.aliavv.com/mbp/3p1ma.jpg" alt=""></p>
+<h3 id="设定条目层级">设定条目层级</h3>
+<p>大纲类工具最重要的用途就是设定条目层级，通过设定条目的层级，我们可以轻松的完成文章层级的划分，并可以借助于大纲工具的聚集功能，将我们的思路聚集在某一个点上，从而促使我们完成更加深刻的思考。</p>
+<p>在幕布中，我们主要依赖于<code>tab</code> 和 <code>shift + tab</code> 来完成大纲条目的操作，前者可以将调试调低一个层级，而后者可以将条目提高一个层级。</p>
+<p>我们通过对层级的设定，最终得到的结果是这样的。</p>
+<p><img src="https://postimg.aliavv.com/mbp/bexoc.jpg" alt=""></p>
+<p>这样形态的条目可以帮助我们更好的理解整篇文章的结构：最顶层的内容是什么、某一个条目下的内容是什么？这样的形态有利于我们对文章的大纲不断的细化，直到每一个条目只需要一两百字就可以完成写作的时候，我们就可以考虑开始写文章了。</p>
+<p>此外，幕布还可以聚焦某个主题，从而让你在思考时，不会受到同一级别的其他条目内容的影响。</p>
+<p><img src="https://postimg.aliavv.com/mbp/wqsbh.jpg" alt=""></p>
+<p>点击前面的小圆点，我们可以进入到条目的具体的内容中去,这样会将一些同级别的内容隐藏起来，让我们的思考只关注当前的条目。从而完成在深度上的思考。</p>
+<h2 id="幕布的特色功能">幕布的特色功能</h2>
+<h3 id="思维导图">思维导图</h3>
+<p>除了我们上述提到的这些功能以外，我们还可以使用幕布自带的思维导图的功能，来回顾我们的内容。</p>
+<p>当你完成了你大纲的构建以后，你可以点击界面的右上角的思维导图按钮，进入思维导图模式，查看具体的思维导图。</p>
+<p><img src="https://postimg.aliavv.com/mbp/shiod.jpg" alt=""></p>
+<p>在思维导图中，你可以看到整个大纲的内容，帮你建立整体的大局观，不会因为在局部过于聚焦，而导致文章整体的结构出现问题。</p>
+<p><img src="https://postimg.aliavv.com/mbp/8m9bb.jpg" alt=""></p>
+<h2 id="总结">总结</h2>
+<p>这节课分享了大纲工具的使用，接下来，你不妨使用大纲工具，来完成自己的文章结构的建立。</p>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

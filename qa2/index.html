@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          答疑二 - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="答疑二">答疑二</h1>
+<h2 id="组织内容">组织内容</h2>
+<ol>
+<li>
+<p><strong>现在技术内容看的人不太多，我想找一个新的内容方向定位。</strong></p>
+<p>答：首先呢，第一个的问题，他当中提到说，觉得现在技术内容没有人看了，所以想问能不能换一个方向。那么首先这个答案。一定说是可以换的，但是你要考虑说，你的户方向，换不换，这是一个很严肃的问题，因为你一旦换方向，那意味着。你的整个的号儿的，这样的一个定位，各方面都发生了变化，你需要对应匹配的去。修改。另外一个层面的，你要需要去想一个问题，说，到底是整个技术的内容不行了，还是说你所写的方向不行吗，因为举个例子，你说在当前的这个场景下，你去写smalltalk，现在可能根本没多少人去研究，自然看的人不多，但是。如果你换一个方向，可能就会好很多，所以这个时候你要考虑说。是不是我需要换一个资金写作的技术的方向，而不是换个大方向。</p>
+<p>因为如果是你的。技术，你自己所写的那个技术面，关注的人不多，你可以考虑去更新自己的知识结构，还是新的技术，加进去，那么还是会有人看的，所以说这个来说，不能单纯的说去换一个方向来解决问题，因为要考虑什么，说，我为什么去换方向，而不是说因为没有人看，所以换方向，因为你到任何一个领域都可能会遇到这个问题，就是说没有人看。</p>
+</li>
+<li>
+<p><strong>最近对于写作题材和主题方面有些犹豫，导致文章更新频率下降，这方面需要规划好写作题材。</strong></p>
+<p>答：就写作来说的话，该更新的这个大纲的还是要更新的，然后呢，你在这个上面所花费的时间呢，也是值得的，因为。这代表的是其实是两种不同的写作的这个风格，那我比较习惯的是两种，一种是说。我们在前期做好整体的规划，然后呢，一篇一篇去写，这是一种另外一种就是说，你不做规划，然后呢，全靠灵感，有人讲就行，然后第二种呢，一般会要求时候，你要做到一个很特定的频率，比如说浴缸，或者是每两天更新一次，这个的话还是要看你自己的情况，那么为了去调整大纲而去降低这个评论呢，我觉得是问题不大，你大，可以发一个公告，说最近在更新内容结构，那么可能要稍微断更一段时间。</p>
+</li>
+<li>
+<p><strong>文章逻辑条理不够清晰，特别是编写一些源码级别分析的文章，方法调用栈实在太深了，让文章看起来不够清晰</strong></p>
+<p>答：关于这个问题呢，你需要注意的是说。这种文章，其实。文字不是最重要的，因为你要告诉别人的，收这个电风扇，他到底逻辑它的顺序是什么样的，所以这样的一些文章呢，其实图片才是核心文字呢，反倒是说可以简单一些。</p>
+<p>你需要合理地去利用各种各样的图形来去说明你的代码调的逻辑，因为实际上，在绝大多数的时候。我们看到的源码呢，大多数。里面他。到最后他调用的那些方法。其实我们可能都很熟悉，我们真正在意是他为什么要这样调，所以这个时候呢，代码本身并不重要，重要的是。他为什么这样调。这个流程是什么。</p>
+<p>所以呢，写这种文章你一定要多去画图，然后用图来说明不同的调用之间的关系。</p>
+</li>
+<li>
+<p><strong>文章素材需要如何积累</strong></p>
+<p>答：在这块儿，你需要注意的是说，我们积累素材呢，有两种方式，一种是被动的，一种是主动的。光主动呢，你就适合里去利用搜索引擎去主动的去找你的素材，对于被动呢，我们本周的文章会介绍。所以呢，你可以先看一下我们本周文章如果有问题呢，可以在周四的晚上再提出来。</p>
+</li>
+<li>
+<p><strong>对个人定位不太清晰, 常常出现错乱</strong></p>
+<p>答：个人定位的问题其实非常简单，因为呢，无非是两个点。第一，我能写什么和第二，别人想看什么，你找到这两个点以后，取这两个范围的交集，也就是说，我能写的同时，别人想看的内容，那么这个内容就是你能写，然后别人想看的内容，从这个内容向上抽离出。你自己的定位到底是什么，因为。一个人的定位呢，只能你自己去发掘，我说的定位对于你来说可能并不合适，你可以从这两个方面来去找。什么到底才是适合你的定位。</p>
+</li>
+<li>
+<p><strong>文笔和前后文逻辑不太好, 常常像一个工具书</strong></p>
+<p>答：文笔的积累呢，是一个树上面的积累，那么我教你的技巧呢，都是到数呢，你需要自己去多读，去感受。那么这块呢，其实也比较好处理，就是说，你可以先去。把你想写的话，一个书面你能说出来的形式去写出来，就说你，比如说本来要写这么多字，然后呢，你把它用。言行使你把说出来，然后把你说出来的话记录下来，删除其中的口语词，这样的话，你的整体的这个流畅度呢，还是可以保证的。</p>
+<p>这块儿最核心的还是你要去多看。你必须多看才知道要怎么写，如果你不做，看你只是自己闭门造车的话，那你是很难去做，好说，让你的。整个文笔变得非常好的，这样的一个过程步骤的。你需要不断的去采集好的词句，然后，并将这些内容转化到你自己的文章中，这样才可以。</p>
+</li>
+<li>
+<p><strong>不太确定一篇内容的分量是否适合作为一篇博文，或者一个note</strong></p>
+<p>答：这个很简单，你可以以300字为限制，300字是微信认定原创的限制。</p>
+</li>
+<li>
+<p><strong>如何获得创作灵感的奇技淫巧？</strong></p>
+<p>答：关于获得创作灵感的这一块儿，我们后面会有专门的文章介绍，所以这里就不再说了。</p>
+</li>
+<li>
+<p><strong>怎样去写技术文章，才能清楚的表达自己的观点。</strong></p>
+<p>答：这里的观点我不明白你想表达什么样的意思。我们的观点大多时候会在行文中表现出来，或者你可以在文章的最终直接写明自己的观点，因此，如果这位同学在场，可以补充一些问题。</p>
+</li>
+<li>
+<p><strong>逻辑不清楚，调理不清晰，不知道该写些什么，写出来的东西想小学生作文。</strong></p>
+<p>答：你这个其实是两个问题：1. 不知道写什么，这个我们后续会有专门的内容，来高速大家，如何找到灵感。 2. 是逻辑不清楚。如果逻辑不清楚，我的建议是你可以使用思维导图和大纲，来辅助你整理思路，你先用思维导图和大纲将自己的思路整理出来，再去完善自己的文章，这样你的文章的大局观会好很多。</p>
+</li>
+<li>
+<p><strong>没有清晰地确定从哪里开始把这些零碎的内容结构化、还缺少些什么、需要阅读些什么材料，无法有针对性地补充这些内容</strong></p>
+<p>答：你可以先列大纲，然后再汇总素材，这样比较明确。如果你是先有的素材，后有的大纲，需要先从素材提炼出一个主题，再基于主题构建大纲，推导出你需要的素材。</p>
+</li>
+<li>
+<p><strong>如何把握是否引用的资料侵权了？</strong></p>
+<p>答：引用如何确保不侵权？最简单的方法是把原作者的详细信息都写明。这里如果你觉得不好处理，那就按照论文的引用标准来处理，简单粗暴。你可以看一看一些出版的书都是如何饮用别人的内容的。</p>
+</li>
+<li>
+<p><strong>如何在文章中描述一个重点知识和非重点知识</strong></p>
+<p>答：</p>
+<p>如果你是希望从层级的方面来写的话，那就可以给重点知识使用二级标题，非重点使用三级或更小的标题。或者你可以给重点内容加粗，非重点内容不变即可。</p>
+<p>你也可以使用引用块的形式，将不重要的内容以引用块引用起来，这样的话主题内容就是重点，非主题内容就不是重点。</p>
+<p>此外，你也可以在文章中声明哪些是重点，不过这个方法用的人不多。大家大多是借助排版技巧来做的这件事。</p>
+</li>
+<li>
+<p><strong>怎样同时照顾到初学和有一定基础的读者？</strong></p>
+<p>答：很简单，分开写，在你的文章中注明哪些是给初学者，那些是给有一定基础的人，或者写两篇。你永远无法照顾到所有的人，必须做一定的取舍。</p>
+</li>
+</ol>
+<h1 id="写作能力">写作能力</h1>
+<ol>
+<li>
+<p><strong>之前也写过博客，但是无法持续稳定输出，想要拥有持续输出的能力。</strong></p>
+<p>答：这一点你需要先搞明白，你自己是没什么可以写，还是没有时间写，先找到问题，对症下药。二者我们后续的课程都会有所涉及。如果想要具体的分析，还是建议提供更多信息。</p>
+</li>
+<li>
+<p><strong>想要能够形成自己的一套从输入-处理-输出的工作流。</strong></p>
+<p>答：这个需要你先模仿别人的输入-处理-输出，应用别人的工作流，将其中不适合你的，或者你觉得不舒服的替换掉，自然而然的就形成了自己的工作流。</p>
+</li>
+<li>
+<p><strong>技术文章阅读量不高，所以想着换一种思路或者题材不断尝试和优化写作风格，从构思到成文逐渐形成自己的流程和习惯。</strong></p>
+<p>答：这个思路没问题，你可以多注意看看数据就好了。此外，不要凭空造风格，从模仿风格开始比较好。</p>
+</li>
+<li>
+<p><strong>我希望可以写出好的前端技术文章，开一个公众号。</strong></p>
+<p>答：</p>
+<p>你的问题分两步：1. 开一个公众号。 2. 写出好的文章</p>
+<p>关于1 ，你需要现在立刻马上注册一个公众号，先去熟悉公众号这个平台。他的生态。后续我们会有加餐，不过你现在需要先注册一个。</p>
+<p>关于2. 这也是我们课程的目的，先开始写，然后再到写好。</p>
+</li>
+<li>
+<p><strong>如何利用碎片化时间来进行写作。</strong></p>
+<p>答：碎片化时间后续我们有一篇文章专门说明，放心。</p>
+</li>
+<li>
+<p><strong>文档清晰简洁。即：高手专家看了不啰嗦，新手小白看了能直接看懂在说什么。教程类甚至可以直接上手操作。</strong></p>
+<p>答：「高手专家看了不啰嗦，新手小白看了能直接看懂在说什么」这个目标要求你的内容除了写得好，还要懂排版，通过排版，达到高手可以快速找到他想要的内容。「教程类甚至可以直接上手操作」的目标比较好达到。只要你如实描述过程即可。</p>
+</li>
+<li>
+<p><strong>如何在写文档之前先理清文档的骨架脉络，先有结构再往结构中填补细节内容。</strong></p>
+<p>答：工具就是我刚刚提到的，大纲和思维导图，不过这个你需要注意的是，你有一个好的文章骨架脉络的前提是，你要对一个事物有足够的认识，不然你的大纲一定是不好的，如同盲人摸象。</p>
+</li>
+<li>
+<p><strong>感觉自己写的文章语言僵硬没有什么感情，不灵活</strong></p>
+<p>答：多读，多看，多模仿。这个需要足够的积累，你需要一些素材，让你的文章能够软化，不僵硬。这里有一部分排版的内容，后续我们加餐说。</p>
+</li>
+<li>
+<p><strong>如何提高写作的速度，合理取舍。目前写一篇文章需要花费 5，6 个小时，常纠结于如何架构，如何表述清楚以便于理解。</strong></p>
+<p>答：</p>
+<p>首先要有一个成长的思维，一篇文章没写好，你可以后面继续再修改，没人说你不能修改。</p>
+<p>其次，对于一些你常写的文章，应该尽可能形成自己的套路，每次都用相同的套路来写，简单粗暴省事。</p>
+</li>
+<li>
+<p><strong>如何升级打怪练成写文章的大咖？</strong></p>
+<p>答：无他，多写，你要先多写，才能写好。你要多写，才能够被更多的人看到。</p>
+</li>
+<li>
+<p><strong>如何优雅的在文章里卖萌？</strong></p>
+<p>答：用好表情包的丰富含义。</p>
+</li>
+</ol>
+<h2 id="排版">排版</h2>
+<p><strong>文章的门面不够优雅，比如配图丑、源码展示黑压压不好看</strong></p>
+<p>答：排版、贴代码的，后续我们会有新的加餐出来专门说这些问题，这里不再赘述。</p>
+<h2 id="工具">工具</h2>
+<ol>
+<li>
+<p><strong>借助工具随时捕捉自己的灵感或素材，专注写作内容，提高写作的效率和质量。</strong></p>
+<p>答：关于灵感我们后续也会有专门的文章放出来，无需担心。</p>
+</li>
+<li>
+<p><strong>写作技巧还欠一点：我的文字组织能力还可以，源于至今对语文还保留的一点点喜爱。而图文结合阐述技术本质的技巧都是自己摸索的，只会用 visio 画类图和流程图，这点并不是很擅长，希望能了解一些其他的写作绘图技巧。</strong></p>
+<p>答：绘图的部分我们本周的加餐会说。</p>
+</li>
+<li>
+<p><strong>资料查询的时候感觉效率很低</strong></p>
+<p>答：如果觉得自己效率低，可以考虑使用一些搜索技巧，比如排除不想要的结果，将自己想要的结果拆分成多个关键词、使用英文进行搜索等。我们后续可以写一篇加餐来说明。</p>
+</li>
+</ol>
+<h2 id="推广">推广</h2>
+<ol>
+<li>
+<p><strong>不知道怎么优雅地营销推广：我写的文章有技术深度，但是不想让熟人知道自己做的事情，而除了朋友圈又没有其他的宣传渠道，加之博客的关注量有限，订阅量始终不高。</strong></p>
+<p>答：文章推广后续会有专门的文章介绍。这里简单的来说，你可以向一些博客平台投稿、一些技术大号投稿、如果涉及到某一个特定的技术，可以加入到一些官方的渠道去推广。</p>
+</li>
+<li>
+<p><strong>以三年的时间倒推，我现在应该做哪些准备？比如提高自己的知乎等级后期可以开设知乎 Live 课等类似的准备，希望白老师给点建议。</strong></p>
+<p>答：首先，以终为始，你希望开 Live 课程，那要先明白，开 Live 课程的要求是什么，然后倒退自己的工作。</p>
+<p>其次，将你自己要做的工作拆分，成为一个个可以操作的工作，然后完成它。</p>
+</li>
+<li>
+<p><strong>自媒体的运营及推广策略</strong></p>
+<p>答：这个我们后续会有加餐来说，这里就不细说了。</p>
+</li>
+</ol>
+<h2 id="趋势分析">趋势分析</h2>
+<ol>
+<li>
+<p><strong>马上面临毕业，有过创业的经历，成果一般 。目前仍有创业的想法，稳一点还是拼一拼？</strong></p>
+<p>答：</p>
+<p><img src="https://postimg.aliavv.com/mbp/wwkdr.jpg" alt=""><br>
+你可以考虑先兼职做事情。目前大环境算不得好，不要让自己陷入困境。君子不立于危墙之下。</p>
+</li>
+<li>
+<p><strong>知识分享前景？文章或视频该如何变现 ？</strong></p>
+<p>答：只要知识还值钱，前景不会差。至于变现，方式有很多，取决于你的商业模式，你希望向谁收钱，如果你向学员收钱，你就以课程的形式。如果你向广告商收钱，你就走追求流量的形式。</p>
+<p>从个人的角度，建议你走前者。</p>
+</li>
+</ol>
+<h2 id="具体案例">具体案例</h2>
+<p>陈志鹏，目前在一家电商公司做大数据相关开发工作。<br>
+之前也有个公众号，也有博客，但是写得断断续续，可能还是写作意识不够强。<br>
+真正的写技术文章（严格意义上可能还不算是，因为更多的是翻译和总结）还是最近半年才开始。<br>
+目前写作的平台主要是公众号和知乎专栏，文章数量 50 多篇，知乎专栏的每篇文章的末尾都会附上公众号的二维码，因此估计公众号的粉丝也是从知乎导入的。目前为止才接近100的公众号粉丝。<br>
+现在我有两个方向性的选择：</p>
+<ol>
+<li>保持现在公众号和知乎专栏的写作，把精力放在内容上，不去考虑倒流粉丝的问题。让粉丝自然增长（仅有知乎专栏的二维码导流）。</li>
+<li>开设更多平台账号，同步文章写作，多回答知乎问题，想更多方法增大公众号导流，尽快做到500人的粉丝量。<br>
+对于以上两种方向，我该如何抉择。</li>
+</ol>
+<p>答：</p>
+<p>二者并不冲突。你可以规划一下自己的时间，二者结合。关于 500 ，我估计你是想开流量主，不过流量主的收入可能并不如你想象的多。</p>
+<p>你写文章引流的时候不要只放一个二维码，你需要让看到的人对你的公众号有期待。他希望去看你的文章，这样才能更好的让别人去主动关注你的内容。此外，他进入议会，你也要让他的期望得到满足才可以。</p>
+<p>如果你的时间不足，你可以考虑先 2 后 1 ，因为 50 篇的内容组合一下也是一个小专题了，你已经有了最基础的积累，你可以把精力多放在2 ，保持1 的写作节奏。</p>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

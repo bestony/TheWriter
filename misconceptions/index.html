@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          关于技术写作的那些错误思想 - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="关于技术写作的那些错误思想">关于技术写作的那些错误思想</h1>
+<p>在正式介绍写作的内容之前，我希望能够和你聊一聊关于写作的一些错误思想，通过“破心中贼”，来让大家走出第一步。</p>
+<h2 id="到底什么是写作">到底什么是写作</h2>
+<p>提起写作，很多人的第一反应，大概就是源自大学以前老师所布置的作文作业。八股文一般的作文，使得大家感受到被作文支配的恐惧。但是，八股文是一种在绝大多数场景下没有帮助的文体，对于如今走入职场的你来说，八股文没有太大的意义，因为在职场的环境下，八股文对你没有帮助。</p>
+<p>如今的我们所写的文章，大多数时候形式都比较自由，无拘无束，也不会有人要求你一定要以某一个特点的文体来写，因此，你大可不必纠结于曾经的八股文为你带来的阴影，重新开始写作。</p>
+<p>说回到写作本身，在我看来，想要写出一篇好文章，你要学会感受来自内心流出的文章，如陆游所言“<strong>文章本天成，妙手偶得之</strong>”，来自内心的文章，可以让你的读者更加容易受到触动。反过来说，当一篇文章如果是你内心想写的，这篇文章会自然而然的流露出来，你所需要做的，不过是将它从你的心中，搬运出来。既然是搬运，又有何难，不过是从一个地方拿起，放到另一个地方罢了。</p>
+<p>当然，除了内心流出的文章，我们很多时候为生活所迫，也需要写一些命题作文，这些命题作文，在本次课程中，我们也会有专门的章节，来告诉你如何写作。</p>
+<h2 id="创作时的错误思想">创作时的错误思想</h2>
+<h3 id="我没有写作天赋，我不能写">我没有写作天赋，我不能写</h3>
+<p>在我们的印象中，写作是一个需要天赋的事情。不过，此事也并非完全是依赖天赋的。</p>
+<p>就如同我们常说，<strong>你努力的程度，还不到拼天赋的时候</strong>，对于绝大多数人来说，你的写作还没有到拼天赋的时候，能够把手头可以做好的事情做好，就已经很好了。</p>
+<p>此外，这里我也举一个例子，来说明一下努力的重要性。</p>
+<p>在网文圈子里，有一个人的名字叫“唐家三少”，本名张威，你应该有所耳闻，他是2018年作家收入榜单第一名，年写作收入是 1.3 亿元。他曾经评价自己，“我没有天赋，我唯一的天赋就是，我能不停的写，一直写下去”，也正如他所说，他是真的很能写，他曾因连续86个月不断更而拿到了吉尼斯世界纪录。他就是一个典型的用努力打败了天赋的人，他的努力，让世界为之侧目。</p>
+<p>对于大家来说，我们所写的技术文章，不需要太多天赋，能够整理清晰自己的逻辑，交代明白所需交代的内容，就已经是一篇不可多得的好文章了。</p>
+<p><strong>平心而论，能把文章写好的技术人，远没有你想象中的那么多。</strong></p>
+<h3 id="你让我讲可以，让我写不可以">你让我讲可以，让我写不可以</h3>
+<p>我自己本身会录制视频课程，自然而然，也会有一些朋友在录制视频课程。</p>
+<p>每当我像他们建议说，你也可以写文章时，他们就会告诉我，“哎呀，我不行，你让我讲可以，写我写不出来”。</p>
+<p>每次听到这个话，我就很诧异，讲课，是以语音、视频的形态讲你所知道的内容，而写作，不过是把你用嘴说的东西，再用笔写罢了。</p>
+<p>如果你会讲课，不会写文章，那我告诉你一个办法，你可以下载一个“讯飞语记”，在你讲课的时候，讲你所讲的内容全部使用软件进行语音转录文字的操作，再讲其中的“啊”、“呃”、“哦”等语气助词都删去，你会惊讶的发现、自己竟然也能写出这么长的文章，你只要再将这些内容进行简单的整理、归纳、就会是一篇不错的文章。</p>
+<p>此外，如果你不认可这样的文章形式、你可以想一想，这样的文章，和演讲稿又有多大的区别呢？不过是一个先讲，一个后讲罢了，你又怎能说你写不出文章呢？</p>
+<p><strong>没有只会讲不会写的人，只有懒的人</strong></p>
+<h3 id="这个东西别人写过了，我写不了">这个东西别人写过了，我写不了</h3>
+<p>写一篇文章固然要有新意，但是技术的发展是有限的，所能提供给我们的写作的点也是有限的。我们很难去找到一个完全没有人写过的领域，但是，我们却可以在别人写过的基础之上推陈出新。</p>
+<p>软件领域和很多领域不同，软件领域日新月异，你今天所看到的东西，可能过了一星期就不再适用了，这就使得我们写作者有了很大的写作空间。别人写了这个软件的1.0使用指南，但一个月过去了，软件可能已经发布了2.0，不少 API 可能已经发生了变化。这些新的特性，就会是我们的文章内容。</p>
+<p><strong>别人去过的地方你都可以再去，别人写过的文章，你为什么不能再写呢？</strong></p>
+<h3 id="我的文笔不行，写不出好文章">我的文笔不行，写不出好文章</h3>
+<p>很多人一提到文章，就想到了自己学生时代曾在读者、美文精选等杂志中看到的散文，美文，觉得自己文笔不行，因而心生恐惧。</p>
+<p>其实大可不必，美文、散文的读者是所有人，自然文笔要好，但我们的文章大多是技术文章，能够讲一个问题讲清楚、讲清晰、讲透彻，就足以。</p>
+<p>我们的读者对于文章的首要要求是内容有料，而不是行文美观。一篇行文美观但没有料的文章不会赢得我们同行的认可；一篇内容有料行文一般的文章，或许让读者不甚舒服，但是却可以得到同行的点赞“嘿，这文章虽然写的不咋地，但是真的帮了我大忙”。</p>
+<p><strong>我们工程师都很实在，所以，不需要担心你的文笔不好，内容才是核心！</strong></p>
+<h3 id="我总觉的得自己的文章不好，有强迫症">我总觉的得自己的文章不好，有强迫症</h3>
+<p>作为一个成年人，我们总是羡慕孩童，羡慕孩童拥有赤子之心，什么事情都敢想、敢做。但是、回过头来想想，是什么让我们失去了敢想敢干的能力？</p>
+<p>是我们内心的声音，告诉我们“你不行的”、“你会丢脸的”，也真是这个声音，让我们不停的陷入对自己的批评，阻止我们写下去。既然我们想要写下去，那我们必须让这个批评的声音暂时停下来，先完成我们的文章，再让他出现，帮助我们更好的写文章。</p>
+<p><strong>很多时候，是我们内心的声音阻止我们继续走下去，为了能够更好的走下去，我们只好让他们暂时不要出现，坚持我们所要做的事情。</strong></p>
+<h3 id="我这个人没有灵感，写不出好文章">我这个人没有灵感，写不出好文章</h3>
+<p>首先，灵感每一个人都有，回想我们自己小时候， 那个不是灵感多多，只不过是随着时间的流逝，年龄的增大，灵感出现后，会被其他的一些事务给压下去，导致我们以为自己没有灵感，但其实只是他们没有浮现在表面而已。在本系列的第三篇文章中，我将向你介绍我自己是如何管理自己的灵感的，借助我的方法，相信你也可以灵感天天都可以大爆发！</p>
+<p>其次，灵感在整个写作的过程中很重要，但是也不那么重要。因为灵感不可控，你可能今天有非常多靠谱的灵感，明天就一个都没有。而作家不可能因为没有靠谱的灵感就饿死！真正能够让一个作家依赖写作为生的，是他的写作系统，灵感只不过是能够让这个系统更好的工作，系统才是让这个作家能够持续生活下去的关键。</p>
+<p>对于我们来说，我们关注灵感，但是也无需过于神化灵感的地位。有了灵感，那是一篇好文章。没有灵感，依然是一篇好文章，不过是稍稍逊色罢了。</p>
+<p><strong>灵感很重要，但写作系统更加重要，灵感我们无法复制，但写作系统却可以构建</strong>。</p>
+<h3 id="我们搞技术的人写不来文章，那个是运营（文案）的活">我们搞技术的人写不来文章，那个是运营（文案）的活</h3>
+<p>写作是工具，是我们向世界表达我们的看法的工具，它属于每一个人。你写一句话也是写作；你写一段话也是写作；当你开始写的时候，你就已经在写作了。</p>
+<p>不要畏惧写作，写作是我们必备的技能，在职场中，我们经常要写周报、年报，在家里我们偶尔要给老婆写一下感言，这个东西我们必需，所以我们必练。</p>
+<p><strong>对写作重视起来，然后开始写吧！</strong></p>
+<h3 id="技术写作文笔不重要，干货才重要">技术写作文笔不重要，干货才重要</h3>
+<p>不少程序员在写作时不甚用心，可以理解，毕竟大家工作那么忙，总是996，哪来的时间写作呢，但是，时间不足不意味着你就可以认为「内容重要，文笔不重要」。</p>
+<p>首先，文笔也是内容的一部分，当你说出内容重要文笔不重要时，你就将文笔与内容割裂开来，在一开始就出现了错误。</p>
+<p>其次，对于文笔，我们的确不应该以专业作家的要求来要求普通的程序员，但是不意味着你可以完全不在意文笔，甚至以文笔好为耻，认为那不是一个正经的「程序员」。写作与每个人都有关，与职业无关，我们每个人的文笔不可能都做的非常好，但是，我们可以让自己的文笔在自己所能做到的极限中，达到最好。</p>
+<p>最后，文笔的好坏往往以修饰词出现的多少，语句之间的起承转合的流程与否来进行评判，这使得文章中出现了大量的与核心思想本身无关的内容，固然让文字显得「水」了一些，但是，却能让你的文章的可读性大大的提高，不再晦涩难懂。</p>
+<p><strong>杨澜有句话「没有人有义务必须透过连你自己都毫不在意的邋遢外表,去发现你优秀的内在」，用在这里就是，「没有人有义务必须透过连你自己都毫不在意的文笔，去发现你优秀的内容」</strong></p>
+<h3 id="技术文章只要干货多，就是好文章">技术文章只要干货多，就是好文章</h3>
+<p>干货是我们经常评判一篇文章好坏的标尺，对于干货较多的文章，我们会点赞，对于干货较少的文章，我们就会唾弃。</p>
+<p>但是，在写文章之前，你需要先考虑你的文章的受众，再进行干货的排布。</p>
+<p>面向高级工程师和初级工程师的文章对于干货的需求必然是不同的，如果你错配了需求，干货再多，也会被读者吐槽。</p>
+<p>一个比较典型的例子是，当你需要写给初学者看的时候，干货异常丰富的官方文档可能并不是一个好的选择，太多的干货带来的巨大信息量会让初学者在一开始整个信道就被占满，无法进行内容的学习，同时，还会在一开始给他巨大的学习压力。个人写的教程、视频教程则相反，抽离出最核心的内容，并对内容进行排布，让初学者可以很轻松的就进行内容的学习。</p>
+<p>但是，我们在写文章时，不能为了更好的可读性就一味的降低干货的量，所以，面对初学者的文章时，你除了尽可能的简化你所能提供的信息，还需要平衡干货的量，这一部分，我通常是以<strong>参考链接</strong>、<strong>延伸阅读</strong>的形式来完成的，帮助读者更好的去学习所学的内容。</p>
+<p><strong>太干的不一定是好东西，要干湿结合，别让你的内容难以下咽。</strong></p>
+<h3 id="写作只是写就可以了">写作只是写就可以了</h3>
+<p>写作不单纯是写，写只是写作中最后一个环节。</p>
+<p>写作的完整流程应当是「输入」- 「处理」 - 「输出」，你写不好文章的问题核心不在于「输出」，在于输入，没有海量的输入，你很难获得持续、高强度的输出。没有中间的处理，你所能写出的文章就是一篇流水账。输入是阅读，你需要海量的阅读；处理是思想，你需要先在大脑内进行思维的碰撞，找出自己想法中的合理与不合理。输出是成文，将处理的结果整理成一篇洋洋洒洒的文字。</p>
+<p><strong>如果你把写作当作一个独立的部件来运转，你永远痛苦，但当你构建了一个写作系统以后，写作会容易许多</strong>。</p>
+<h3 id="吸引眼球的标题不是好标题">吸引眼球的标题不是好标题</h3>
+<p>标题只是一个工具，真正令人讨厌的不是标题，而是标题背后的那个人。</p>
+<p>我们每个人都讨厌标题党，但是我们不应该讨厌一个好的标题。标题党的主要行为是「发帖的标题严重夸张，帖子内容通常与标题完全无关或联系不大」，让我们有较高的期待和随之而来的较大的失望。但是从功用的角度来说，他们的标题很好的完成了自己的工作，将人们吸引进来。</p>
+<p>在信息充裕的时代，我们往往会通过信息流来选择自己想要看的内容，这个时候我们必然不能通过阅读每一篇文章来选择，那样就不是选择，而是遍历了。在这个时候，一个好的标题，能够帮助你更好的吸引读者进来看，让你的内容能够从众多的文章中脱颖而出。</p>
+<p>我们应该合理的利用好标题吸引读者进入的功能，来为我们的文章选择更多可能的读者</p>
+<h3 id="只要文章好，读者自然而然就来了">只要文章好，读者自然而然就来了</h3>
+<p>现在这个时代，是一个信息大爆炸的时代，我们每个人每天都会接受大量的信息，也因此，每天被无数好的、坏的信息冲刷。我们的读者每天都在被各种各样的广告轰炸。在这样的一个劣币驱逐良币的时代，我们必须学习推广我们自己的产品，不然你就会发现，那些不如你的内容，因为你的疏于推广，最终超过你了。</p>
+<p><strong>在这个酒香也怕巷子深的时代，我们需要学会推广，让自己的文章被更多的读者看到</strong>。</p>
+<h2 id="总结">总结</h2>
+<p>在这篇文章中，我们讨论了什么是写作，以及写作过程中常遇到的一些会影响到你写作的思想。我们从思想出发，先「破除你心中的贼」，帮助你开始写作，在下一节课，我们将聊一聊灵感，聊一聊灵感的产生、维护。</p>
+<h2 id="提问">提问</h2>
+<p>除了上面所提到的这些想法，在你写作的时候，还有哪些想法会阻碍你的写作呢，不妨说出来，大家一起探讨。</p>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          好文章不凭空而生，我们要如何管理素材？ - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="好文章不凭空而生，我们要如何管理素材？">好文章不凭空而生，我们要如何管理素材？</h1>
+<p>一篇好文章的诞生往往需要大量的素材和支撑材料，将这些素材和支撑材料也提供给我们的读者可以让信息的传递效率更高，但是，海量的素材和资料应该如何管理呢？在这篇文章中，我将为你介绍一些管理素材的工具。</p>
+<p>我们将素材分为以下几个方面，并一一向你介绍</p>
+<ol>
+<li><strong>链接型素材</strong>：链接素材是我们写文章时用到的最多的，比如参考文献、官方文档、某个人写的教程、StackOverflow 的某个回答等。</li>
+<li><strong>图片型素材</strong>：图片素材是我们在写文章时可能的配图、一些截图，在某个网站上看到的好图片等。</li>
+<li><strong>代码型素材</strong>：作为一个程序员，在写文章、教程时难免会需要用到代码来解释，这个时候我们平时积攒下来的有趣的代码都可能会成为我们的写作素材。</li>
+</ol>
+<h2 id="链接型素材">链接型素材</h2>
+<p>链接型素材是我们使用的最多的素材，我们需要链接各种各样的网站，与其每次都从搜索引擎中苦苦的寻找，不如在每次浏览的过程中，就将信息采集到素材管理工具中，当用的时候，直接在素材管理工具中进行查询。</p>
+<h3 id="收趣云书签">收趣云书签</h3>
+<p><img src="https://postimg.aliavv.com/mbp/hi8th.jpg" alt=""></p>
+<p>收趣云书签是一款类似于「美味书签」的<strong>在线云书签服务</strong>，可以将你的书签直接存放在云端，并跨设备、跨浏览器进行存储。</p>
+<p>使用时，我们只需要安装其浏览器插件，并将其插件按钮放在工具栏中，就可以非常方便的将一个页面收藏到收趣当中。添加时你还可以为你的收藏设定分类，在后续进行搜索时，可以更加精准的查看收藏的内容。</p>
+<p><img src="https://postimg.aliavv.com/mbp/ik685.jpg" alt=""></p>
+<p>相比于系统自带书签，收趣云书签的的一个很大的优势在于可以非常方便的搜索，快速从你所收藏的书签中找到你需要的内容。</p>
+<p><img src="https://postimg.aliavv.com/mbp/qomji.jpg" alt=""></p>
+<p>另外一个优势就是可以将你的所有书签都存放在一个地方，让你的收藏不那么<strong>割裂</strong>，在搜索时成本会很低，只需要在一个地方搜索就可以了。</p>
+<p>费用：基础功能免费，完整导出付费。<br>
+平台：全平台</p>
+<h2 id="图片型素材">图片型素材</h2>
+<p>图片素材也是我们写文章用的较多的，图片素材主要有两种，一种是海报、剪贴画，我们往往需要提前进行收集、整理、归类；另一类则是截图，用时准备即可。</p>
+<h3 id="花瓣">花瓣</h3>
+<p>花瓣网是一个在线分享社区，它提供了一个非常不错的收集功能，可以在不同的网页上采集各种各样的图片素材。</p>
+<p>你只需要安装它的采集工具（只是一个浏览器插件），就可以在不同的页面中采集图片到你自己的花瓣网的账户中。</p>
+<p><img src="https://postimg.aliavv.com/mbp/knmc5.jpg" alt=""></p>
+<p>在你需要采集的页面点击右键，选择采集图片或视频就会激活插件的采集模式，自动识别页面中的所有图片，让你选择需要采集哪些图片。</p>
+<p><img src="https://postimg.aliavv.com/mbp/uk4sn.jpg" alt=""></p>
+<p>你只需要选择你自己需要的图片，并进行批量采集就可以了。</p>
+<p><img src="https://postimg.aliavv.com/mbp/anwq3.jpg" alt=""></p>
+<p>花瓣网可以完成我们平时在浏览过程中的图片的采集。对于本地截图的采集，目前支持的还不够完善，你需要先将图片保存到本地，然后再上传到花瓣中进行采集。</p>
+<p>费用：免费<br>
+平台：仅 Web 浏览器</p>
+<h3 id="Eagle">Eagle</h3>
+<p>Eagle 则是近两年来比较火的图片素材管理工具，我也用它来进行图片的素材管理。</p>
+<p><img src="https://postimg.aliavv.com/mbp/l2318.jpg" alt=""></p>
+<p>在基本功能上，它和 花瓣网的采集功能类似，也是安装浏览器插件后，通过浏览器插件来完成图片的采集，不同的是，Eagle 可以提供更多设计层面的能力，不过这些与我们这些写作者关系不大，相比于花瓣网， Eagle 可以提供截图的支持，但是你也需要付出更高的代价。</p>
+<p>费用：199 / 2设备<br>
+平台：Windows or macOS</p>
+<h2 id="代码型素材">代码型素材</h2>
+<p>作为技术人员，写文章时，往往都是与技术相关的，那就难免会遇到要写代码的场景。如果这些代码在平时没有积累起来，当你真正想要用的时候，查找起来就难免成本高了许多。借助一些代码管理工具，可以帮助你收集平时遇见的值得单独拿出来讲一讲的代码。</p>
+<h3 id="Lepton">Lepton</h3>
+<p><img src="https://postimg.aliavv.com/mbp/em5w9.jpg" alt=""></p>
+<p>Lepton 是一位开发者开发的用于代码管理的软件，它基于 Github 的 gist， 能够实现将代码都存储到 Gist 中，并在用到的时候通过搜索获取到具体的代码。</p>
+<p>这款软件免费且开源，还支持 Windows、macOS 、Linux ，你可以根据你自己的操作系统来下载对应的版本。</p>
+<p>打开软件，点击界面上的 New ，就可以进入新建的界面</p>
+<p><img src="https://postimg.aliavv.com/mbp/lfx15.jpg" alt=""></p>
+<p>按下 <code>Shift</code> + <code>Space</code>，就可以唤起搜索框，来搜索你的 Gist ，查找你过去保存的代码，非常的方便。</p>
+<p><img src="https://postimg.aliavv.com/mbp/u867z.jpg" alt=""></p>
+<p>费用：免费<br>
+平台：Windows、macOS、Linux</p>
+<h2 id="SnippetsLab">SnippetsLab</h2>
+<p>相比于 Lepton ，Snippets Lab 在功能上并没有太大的区别，同样是代码管理工具，不同的是， SnippetLab 并没有采用 Gist， 而是本地存储。对于代码不适合存储在云端的场景时， Snippets 显然更加的合适。</p>
+<p><img src="https://postimg.aliavv.com/mbp/75u3n.jpg" alt=""></p>
+<p>此外，SnippetLab 是基于 OC 编写的，相比于基于 Electron 编写的 Lepton 性能更加的强劲；本地存储也提供了更多可以自定义的项目，当然，本地存储还需要考虑数据安全的问题，所以 SnippetLab 提供了 iCloud 的备份功能和 导出到 Gists 的功能，帮助你更好的使用 Snippet Lab。</p>
+<p><img src="https://postimg.aliavv.com/mbp/9gk0q.jpg" alt=""></p>
+<p>费用：68<br>
+平台：macOS</p>
+<h2 id="总结">总结</h2>
+<p>借助这些工具，我们的素材会更加的有序，当我们真正起笔开始写的时候，就不会因为素材找不到而慌乱了。</p>
+<h2 id="相关链接">相关链接</h2>
+<ul>
+<li>收趣：<a href="http://shouqu.me/" target="_blank" rel="noopener">http://shouqu.me/</a></li>
+<li>花瓣：<a href="http://huaban.com/" target="_blank" rel="noopener">http://huaban.com/</a></li>
+<li>Eagle：<a href="http://Eagle.cool" target="_blank" rel="noopener">http://Eagle.cool</a></li>
+<li>Lepton ：<a href="http://hackjutsu.com/Lepton/" target="_blank" rel="noopener">http://hackjutsu.com/Lepton/</a></li>
+<li>SnippetsLab：<a href="https://www.renfei.org/snippets-lab/" target="_blank" rel="noopener">https://www.renfei.org/snippets-lab/</a></li>
+</ul>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          如何读“完”一篇文章 - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="如何读“完”一篇文章">如何读“完”一篇文章</h1>
+<p>在开始我们技术篇的第一篇文章的时候，我希望你能了解，如何“读完”一篇文章。</p>
+<h2 id="为什么我们要学“读完”一篇文章">为什么我们要学“读完”一篇文章</h2>
+<blockquote>
+<p>三人行必有我师焉，择其善者而从之，其不善者而改之。</p>
+</blockquote>
+<p>想要写一篇文章并非只要有灵感就够了，还需要丰富的词汇量、完整的组句能力、完整的文章大纲组织能力等一系列能力，多种能力组合，我们才能最终写出一篇令我们自己满意的文章。但这些能力并非天生而来，需要我们不断的学习、训练，以提升自己的能力。</p>
+<p>这里的学习，便是从文章的阅读开始的。我们每天都在阅读，通勤的时候你在看公众号文章，你在阅读，工作的时候你看的是文档，你在阅读，回家了，教孩子写作业，你在阅读。实际上，我们每天都在阅读，但并非每一次的阅读都有意义，实际上，绝大多数的阅读你都是轻轻掠过，他没有在你的脑海里产生一丝波澜。</p>
+<p>因此，<strong>我们要学“读完”一篇文章</strong>。</p>
+<h2 id="读文章，我们要读什么？">读文章，我们要读什么？</h2>
+<p>读文章，你可能第一反应，我当然是读内容。但是，作为一个写作者。我们不能只读内容，我们还要继续读，读出一篇文章的精髓，积攒下来，作为我们自己的知识库。</p>
+<p>那我们能从一篇文章中得到什么东西呢？</p>
+<ol>
+<li><strong>写作灵感</strong>：在读文章的时候，我们经常会看到一些不好的文章，但是迫于整个互联网上同主题的文章并不多，只能将就着看一看。作为一个写作者，我们可以做的更多。如果你发现一篇文章写的并不好，那干脆把这篇文章记录一个灵感，后面自己写一篇！</li>
+<li><strong>文章结构</strong>：不同的文章的结构、写作方式不同，我们大多数的时候只使用一种结构和写作方式。但是我们可以在阅读文章的时候，总结别人的文章的文章结构、写作方式，作为我们自己的文章结构库，日后当我们需要写同类型的文章时，可以考虑参考他的文章结构来编写。</li>
+<li><strong>配图结构</strong>：我们写文章的时候，会需要用到一些插图，在你阅读的时候，也会看到别人使用一些不错的配图，这个时候，你可以将配图保存下来，并试着用自己的语言来描述这种配图的特色， 这样后续你自己就可以自己来绘制这样的配图。</li>
+<li><strong>词汇语句</strong>：不少程序员在写文章的时候，都会觉得自己的文章干巴巴的，读起来十分的不舒服，这是你自己在词汇和语句的积累不足导致的，因为你没有积累，在写作的时候，就没有太多可用的词汇。你在读到好的词汇和语句的时候，可以将其记录下来，后续不断化用到你自己的文章中。</li>
+</ol>
+<p>将一篇文章的内容拆解出来是第一步，你需要将这些东西化用到你自己的文章中，才开始成为你自己的内容。当你下一次写作的时候，可以很随意的使用这些内容的时候，这些精华，就真正的被你吸收了。</p>
+<h2 id="读完一篇文章的方法">读完一篇文章的方法</h2>
+<p>前面说了我们要从一篇文章中去学习内容，那实际上应该如何操作呢？</p>
+<p>第一遍：首先，我们需要通读一遍文章，了解文章的基础概念、含义、内容是我们进行下一步所必须的准备。通过对文章的通读，我们可以知道一篇文章的主旨、内容、脉络，这对于我们后续拆分文章很必要。<strong>这一步，我们读内容</strong></p>
+<p>第二遍：在掌握了文章的基础的内容、脉络以后，，我们对文章中的每一个部分都在整个文章中起什么作用会更加了解，后续的拆分时，你就能够很好的把握文章各部分的价值，更好的体会不同元素在文章中的价值。<strong>这一步，我们关注文章结构</strong></p>
+<p>第三遍：在阅读文章的时候，我们看到了好的图片，可以学习配图的构图、查找图片的来源，可以获得一些图片的来源的网站，帮助我们自己后续更好的去做自己的配图。<strong>这一步，我们关注文章的图片、资源等</strong>。</p>
+<p>第四遍：在文章阅读的最后，我们要收集一篇文章中好的词句，作为自己后续文章的素材。将其中有价值的词、句收集到自己的素材库中，以备不时之需。</p>
+<h2 id="总结">总结</h2>
+<p>在这一节中，我们聊了聊我们能够从一篇文章中得到的东西，合理利用我们可以得到的文章的资源，取其精华，取其糟粕，可以让我们自己的文章，更加的丰满。</p>
+<h2 id="提问">提问</h2>
+<p>在这节课中，我们提到了阅读一篇文章的时候，我们需要从中读什么东西，除了文章中提到的四种，你觉得还有什么值得我们从别人的文章学习的？</p>
+<h2 id="反馈">反馈</h2>
+<p>迦蓝：我觉得以下这些内容也是值得我们在阅读别人的文章的过程中要注意的：</p>
+<ul>
+<li>文章中可能提到的今后发展的方向、课题</li>
+<li>自己对于作者论点、论据的看法</li>
+<li>参考文献（作为自己的延伸阅读和素材库）</li>
+<li>重要的公式、代码等</li>
+</ul>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

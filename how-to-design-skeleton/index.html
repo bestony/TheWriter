@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          如何设计一篇文章的骨架 - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="如何设计一篇文章的骨架">如何设计一篇文章的骨架</h1>
+<p>有了灵感，有了素材，接下来就是写了。写其实是整个过程中最为简单和容易的部分。<strong>只要你在前期进行了充分的思考，写作只不过是将你的思考输出罢了</strong>。</p>
+<p>而这个思考的部分，就是确定我们文章的骨架，我们需要在动笔之前，为我们的文章写出大纲，规划好内容和图片、资产、附件等内容，这样我们在写作的时候，就能够更加简单的完成我们自己的写作任务。</p>
+<h2 id="设计大纲的原则">设计大纲的原则</h2>
+<p>大纲是帮助我们写作的东西，有了一个大纲，我们就好像有了一个明确的路线，知道自己下一步要做什么、下下一步要做什么。因此，我们需要在写文章之前，去定好自己的大纲，然后再开始写作。</p>
+<p>但是，一个大纲要定制的多细致才好呢？这里面有两派，一派人认为，文章的大纲定到二级目录就可以了。但是，在我看来，这种级别的大纲，对于写作者来说，要求是十分高的，写作者拿着仅有两级的大纲，开始文章的写作，需要花费精力记住我们的每一个部分的内容方向，压力比较大。</p>
+<p>相比之下，我更喜欢按字数来定大纲，一般来说，<strong>我的大纲会细致到每一个大纲条目下只需要 100 ～ 300 字来完成内容的写作</strong>，这样，我所需要做的事就是拿出大纲，并在每一个条目中加入对应的内容。细致的大纲带来的是写作的舒爽，但同时也会要求作者有足够的时间来思考文章的大纲，愈加细致的大纲，对于作者写大纲的要求也就越高。</p>
+<p>因此，在编写大纲的时候，我会在一开始定下一个大的主题，然后不断的细化、组织，直到可以形成每一个条目都只需要 100 ～ 300 字就可以完成的时候，就可以开始写作了。</p>
+<h2 id="设计大纲的方法">设计大纲的方法</h2>
+<p>在确定文章大纲时，我主要用的是思维导图工具和大纲工具。思维导图工具我使用的是 MindNode，你可以使用更加强大的 Xmind。</p>
+<p>接下来，我以 VSCode 为例，来确定一篇文章的大纲。</p>
+<h3 id="1-打开软件，输入你要写的主题">1. 打开软件，输入你要写的主题</h3>
+<p>首先，打开软件，输入你要写的主题。</p>
+<p><img src="https://postimg.aliavv.com/mbp/wmqak.jpg" alt=""></p>
+<h3 id="2-然后信马由缰，写下所有可能有关的内容">2. 然后信马由缰，写下所有可能有关的内容</h3>
+<p>在这一步，你不要对灵感分层级，而是全部都放在核心主题的次级，过早的引入层级，会让你失去想象力。</p>
+<p>经过一轮头脑风暴，我得到了这样的思维导图。</p>
+<p><img src="https://postimg.aliavv.com/mbp/tip0x.jpg" alt=""></p>
+<h3 id="3-对你想到的内容进行分类">3. 对你想到的内容进行分类</h3>
+<p>在第二步不进行分层是为了确保你不会因为层级的出现而将精力更多的放在头脑风暴，不会过早的因为层级而结束了头脑风暴。</p>
+<p>在第三步的时候，我们就可以对我们的头脑风暴的结果进行一次处理，以从中整理出一个好的文章的结构。</p>
+<p><img src="https://postimg.aliavv.com/mbp/yybkl.jpg" alt=""></p>
+<p>简单分类后，我们可以得到这样的一个思维导图，因此， 我们可以知道，我们的文章可以分为四个大类进行写作，分别是使用、对比、不同语言的用户、开发。</p>
+<h3 id="4-再次头脑风暴">4. 再次头脑风暴</h3>
+<p>在完成了第一次分类以后，我们可以在当前的主题基础之上，进行二次的头脑风暴。这一次的头脑风暴，我们需要将自己放置在一个个特定的主题下进行，比如，针对“使用 VSCode”这一话题进行头脑风暴，思考所有和使用 VSCode 有关的话题内容。</p>
+<p><img src="https://postimg.aliavv.com/mbp/sj7k8.jpg" alt=""></p>
+<p>细化以后，我们得到了更加详细的内容。当你完成了所有的内容以后，就可以考虑开始写内容了。</p>
+<p>此时，你需要的就是将你要写的内容整理成一个大纲出来，比如，下面的大纲就是我最终的结果。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"># VSCode 从入门到精通</span><br><span class="line">## VSCode 简介</span><br><span class="line">### VSCode 的历史</span><br><span class="line">### VSCode 与 Atom、Sublime 的对比</span><br><span class="line">## VSCode 的安装及使用</span><br><span class="line">### 安装包安装</span><br><span class="line">### Homebrew 安装</span><br><span class="line">### 配置 VSCode 的命令行</span><br><span class="line">### Git</span><br><span class="line">#### 配置 Git 用户名、邮箱</span><br><span class="line">#### 使用 Git 进行初始化</span><br><span class="line">#### 使用 Git 提交 Commit</span><br><span class="line">#### 推送代码</span><br><span class="line">## VSCode 的高级使用</span><br><span class="line">### 快捷键</span><br><span class="line">#### VSCode 快捷键大全</span><br><span class="line">#### 如何自定义 VSCode 快捷键</span><br><span class="line">### 常用插件</span><br><span class="line">#### Emmetn</span><br><span class="line">#### Git Blame</span><br><span class="line">#### Git History</span><br><span class="line">#### Vetur</span><br><span class="line">### 主题</span><br><span class="line">#### 安装主题</span><br><span class="line">#### 配置主题</span><br><span class="line">#### 配置文字</span><br><span class="line">### 配置</span><br><span class="line">#### 常用配置说明</span><br><span class="line">##### 字体相关配置</span><br><span class="line">##### 资源管理器相关配置</span><br></pre></td></tr></table></figure>
+<p>有这样的一个大纲，在写作的时候压力就会骤降，我们只需要花费时间，去把每一个部分都填写完，就可以了。</p>
+<h2 id="总结">总结</h2>
+<p>在这一篇文章中，我以 VSCode 为例，介绍了如何借助思维导图工具，来构建一篇文章的大纲，当你掌握了这样的能力以后，任何主题的写作，都不过是体力活罢了。</p>
+<h2 id="提问">提问</h2>
+<p>除了思维导图，你还会用什么工具来辅助你自己去构建文章的骨架呢？不妨说出来，推荐给大家。</p>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

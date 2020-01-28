@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/favicon.ico" />
+    
+
+    <title>
+        
+          Markdown 贴图指南 - 给程序员的写作课
+        
+    </title>
+
+    <meta name="description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-exp.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/spectre.css@0.5.8/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans SC -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans+SC" rel="stylesheet">
+    <!-- Noto Sans -->
+    <link href="https://fonts.loli.net/css?family=Noto+Sans" rel="stylesheet">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/css/book.css">
+
+    
+<script src="/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.10.0/dist/tocbot.css">
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="给程序员的写作课">
+    <meta property="og:description" content="给程序员的写作课，一个面向程序员的实用写作指南">
+    <meta property="og:image" content="https://remoteok.cn/thumbnail.png">
+    <meta property="og:url" content="https://remoteok.cn/">
+
+    
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/zooming/2.1.1/zooming.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const zooming = new Zooming()
+    zooming.listen('img')
+})
+</script>
+
+<meta name="generator" content="Hexo 4.2.0"></head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      <div class="column col-2 hide-lg">
+        <div class="book-sidebar">
+  <h4 class="site-meta">
+    <a href="/">给程序员的写作课</a>
+  </h4>
+  <div class="sidebar-content">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+  <div>
+  	本书基于<strong><a href="https://creativecommons.org/licenses/by-nc-nd/4.0/deed.zh" target="_blank" rel="noopener">署名-非商业性使用-禁止演绎 4.0 国际 (CC BY-NC-ND 4.0)</a></strong>共享
+  </div>
+</div>
+
+
+<script src="/js/book-sidebar.js"></script>
+
+
+<script>
+collapse_sidebar(2)
+highlight_tab()
+show_sidebar()
+</script>
+      </div>
+
+      <div class="column col-8 col-lg-12">
+        <div class="book-content">
+          <div class="book-navbar">
+  <header class="navbar">
+  <section class="navbar-section">
+    <img class="navbar-icon" src="/favicon.ico">
+  </section>
+  <section class="navbar-center">
+    给程序员的写作课
+  </section>
+  <section class="navbar-section">
+    <label class="accordion-header c-hand" for="accordion-sidebar">
+      <i class="icon icon-menu"></i>
+    </label>
+  </section>
+</header>
+
+<div class="accordion">
+  <input type="checkbox" id="accordion-sidebar" name="accordion-checkbox" hidden>
+  <div class="accordion-body">
+    <ul>
+<li><a href="/perface">前言</a></li>
+<li>理论篇
+<ul>
+<li><a href="/why-you-should-write">为什么你要写作</a></li>
+<li><a href="/misconceptions">关于技术写作的那些错误思想</a></li>
+<li><a href="/start-from-writting">一切写作，从写开始</a></li>
+<li><a href="/about-idea">写作的灵感从哪来？又要到哪里去？</a></li>
+<li><a href="/good-title">好的标题，没那么坏</a></li>
+<li><a href="/word">Word or Markdown？排版并不难</a></li>
+</ul>
+</li>
+<li>实战篇
+<ul>
+<li><a href="/how-to-read-a-article">如何读懂一篇文章</a></li>
+<li><a href="/how-to-choose-a-title">如何选择题目</a></li>
+<li><a href="/how-to-write-propositional-composition">如何写作命题作文</a></li>
+<li><a href="/how-to-design-skeleton">如何设计一篇文章的骨架</a></li>
+<li><a href="/how-to-modify">如何修改一篇文章</a></li>
+<li><a href="/how-to-spread">如何推广一篇文章</a></li>
+<li><a href="/how-to-make-time">如何解决写作没有时间的问题</a></li>
+<li><a href="/how-to-read-and-write">如何以读书促进写作</a></li>
+<li><a href="/how-to-generate-title">如何为你的文章起一个好的标题</a></li>
+<li>如何从工作中找到可以写作的指南</li>
+</ul>
+</li>
+<li>补充内容
+<ul>
+<li><a href="/information">海量信息输入指南</a></li>
+<li><a href="/assets">素材管理指南</a></li>
+<li><a href="/cc-guide">CC 协议指南</a></li>
+<li><a href="/pasteimage">Markdown 贴图指南</a></li>
+<li><a href="/outliner">大纲类工具的使用</a></li>
+<li><a href="/mindmap">思维导图的使用</a></li>
+<li><a href="/mobile">移动端写作指南</a></li>
+<li><a href="/pastecode">文章贴代码指南</a></li>
+<li><a href="/write-guide">一些常见的文章写作指南</a></li>
+<li>聊聊排版</li>
+<li>新媒体写作指南</li>
+<li>新媒体排版指南</li>
+<li>如何又好又快的搜索</li>
+<li>推荐阅读书籍</li>
+</ul>
+</li>
+<li>Q&amp;A
+<ul>
+<li><a href="/qa1">第一期</a></li>
+<li><a href="/qa2">第二期</a></li>
+</ul>
+</li>
+<li><a href="/postscript">后记</a></li>
+</ul>
+
+  </div>
+</div>
+</div>
+
+<div class="book-post">
+  <h1 id="Markdown-贴图指南">Markdown 贴图指南</h1>
+<p>一篇好的文章，少不了图文并茂，因此，我们需要为我们的文章绘制图片，好的图片会让我们的文章内容更加丰满，更加讨喜。</p>
+<p>在这篇文章中，我们将从「选图」、「做图」、「存图」三个方面来讨论，如何处理我们的内容。</p>
+<h2 id="关于选图">关于选图</h2>
+<p>在写文章的时候，我们并不会自己做所有的图，也会用到一些外部的图，这些外部的图，就需要我们去使用一些网络上的图片。</p>
+<p>在使用网络的图片的时候，我们需要注意的主要是版权问题，如果不注意版权问题，你后续有可能会因此吃亏。</p>
+<p>这里我为你推荐一些可以免费商用的无版权图库，你在选外部图片的时候，可以直接在这些网站中找：</p>
+<p>Pexels：<a href="https://www.pexels.com" target="_blank" rel="noopener">https://www.pexels.com</a><br>
+StockSnap：<a href="https://stocksnap.io" target="_blank" rel="noopener">https://stocksnap.io</a><br>
+UnSplash：<a href="https://unsplash.com" target="_blank" rel="noopener">https://unsplash.com</a><br>
+Pixabay：<a href="https://pixabay.com" target="_blank" rel="noopener">https://pixabay.com</a></p>
+<h2 id="关于做图">关于做图</h2>
+<p>除了一些网图，绝大多数的时候，我们都需要自己作图，这时，我们就需要掌握一些基本的规则，通过这些基本规则，来让我们的图片变得规范、整洁。</p>
+<h3 id="做图的基本原则">做图的基本原则</h3>
+<p>接下来，我为你介绍一些简单的规则，帮助你做好图片</p>
+<h4 id="1-减少用色">1. 减少用色</h4>
+<p>我们所绘制的图片，大多是流程说明，因此，我们所绘制的图片其实并没有我们想象中的那么复杂，图片也是尽可能简单为好。不要在图片中使用大量的颜色，更好的是使用一个颜色的不同深度的颜色，从而可以突出不同用颜色的主次。</p>
+<p>如果你不懂得配色，那么最简单的方法是使用 Material Design 已经配好的色卡， 使用其中的颜色就可以了，比如蓝色的色卡就是这样的。</p>
+<p><img src="https://postimg.aliavv.com/mbp/rno3a.jpg" alt=""></p>
+<p>其他颜色的你也可以在 <a href="https://material.io/design/color/the-color-system.html#tools-for-picking-colors" target="_blank" rel="noopener">https://material.io/design/color/the-color-system.html#tools-for-picking-colors</a> 找到，从中选择你喜欢的颜色来使用就可以了。</p>
+<p><strong>通过组合不同的色彩，会让你的图片的颜色更加鲜艳，内容更加饱满，但是也要注意不要搞太多的颜色，以免影响内容本身的表达</strong>。</p>
+<h4 id="2-使用合理的字体">2. 使用合理的字体</h4>
+<p>由于我们所写的内容大多是科技内容，因此，我建议你使用无衬线字体。</p>
+<p><img src="https://postimg.aliavv.com/mbp/bwr3r.jpg" alt=""></p>
+<p>无衬线字体相比于衬线字体，更具备科技感。同时，考虑到字体的版权问题，我强烈向你推荐 Noto Sans CJK SC 字体。这个字体是免费商用的，你可以在 <a href="https://github.com/googlefonts/noto-cjk" target="_blank" rel="noopener">https://github.com/googlefonts/noto-cjk</a> 下载到。</p>
+<p>此外，在我们的图片中也会出现一些英文，我推荐你使用我们常用的代码字体，比如 Source Code Pro、Fira Code、 Ubuntu Mono、Inconsolata等，这些字体都是无衬线字体，能够很好的和 Noto Sans CJK SC 搭配使用。</p>
+<p><img src="https://postimg.aliavv.com/mbp/blhcq.jpg" alt=""></p>
+<h4 id="3-不要使用纯白色的背景">3.不要使用纯白色的背景</h4>
+<p>纯白色的背景冲击力太强，你可以选用一些较淡的蓝色或灰色，都可以弱化背景的冲击，使得我们的文章更加柔和，读的时候更加轻松。</p>
+<p>你可以使用 <code>#eff1f3</code> 、<code>#CFD8DC</code> 、<code>#E0E0E0</code>等颜色来作为你的背景色</p>
+<h4 id="4-统一化你的图片中出现的组件">4. 统一化你的图片中出现的组件</h4>
+<p>由于我们所制作的图片高度一致，因此，我们需要将我们所用到的组件尽可能的保持一致。相同的组件保持相同的大小、颜色、阴影，从而确保你的组件整体的一致性，这样你的图片会显得整齐，读者的看图体验会更好。</p>
+<p><img src="https://postimg.aliavv.com/mbp/eacjd.jpg" alt=""></p>
+<h3 id="做图的基本工具">做图的基本工具</h3>
+<p>就作图而言，你用什么工具都并不重要，重要的是你能否很好的去遵循上述的原则，将你的图片做的干净、整洁。不过，如果你现在还没有好的绘图工具的话，我推荐你使用 Powerpoint （Keynote）来绘制你的图片。</p>
+<p>这两个工具操作简单，同时提供了一些方便的格式调整工具，还可以方便的导出高清的图片，因此我推荐你使用这两个工具来绘图。</p>
+<h3 id="演示：动手做一个图片">演示：动手做一个图片</h3>
+<p>光说不练假把式，接下来，我将用 Keynote 来教你如何绘制一个图片。</p>
+<p>首先，打开 Keynote ，选择，新建一个“宽幅”的白色背景模板。一直使用同一款模板，会保证我们的图片在导出的时候，始终是相同大小。选择宽幅则会让我们的图片不至于占用太多的画幅。</p>
+<p><img src="https://postimg.aliavv.com/mbp/1504i.jpg" alt=""></p>
+<p>进入界面后， 我们来编辑一下母版，设置背景色和水印</p>
+<p><img src="https://postimg.aliavv.com/mbp/qabzm.jpg" alt=""></p>
+<p>选择我们要使用的模板，并点击背景，选择颜色填充，设置我们要用的颜色，就可以修改页面的颜色了。</p>
+<p><img src="https://postimg.aliavv.com/mbp/92n63.jpg" alt=""></p>
+<p>然后在右下角添加一下我们自己的水印，并配置一下样式，然后点击完成。</p>
+<p><img src="https://postimg.aliavv.com/mbp/8ibjv.jpg" alt=""></p>
+<p>回到默认页面，新建一个空白页面</p>
+<p><img src="https://postimg.aliavv.com/mbp/oxtgr.jpg" alt=""></p>
+<p>并在这个页面上绘制一些我们常用的组件，作为我们的组件库。</p>
+<p><img src="https://postimg.aliavv.com/mbp/84ajh.jpg" alt=""></p>
+<p>然后新建一个空白页面来绘图，同时，从组件库复制内容到新的页面来进行绘图。</p>
+<p><img src="https://postimg.aliavv.com/mbp/0if04.jpg" alt=""></p>
+<p>绘制完成后，将其导出为图片即可。</p>
+<p><img src="https://postimg.aliavv.com/mbp/ye190.jpg" alt=""></p>
+<p>此时，你就可以得到一个简单，但不影响文章整体感官的图片。</p>
+<p><img src="https://postimg.aliavv.com/mbp/ocyit.jpg" alt=""></p>
+<p>如果你是要做多张图片，这样的模式可以确保你产出的图片保持在同一个水平。同时，这个前面的模板准备的工作可以保留下来，多次使用，降低每次绘图的时间成本。</p>
+<h3 id="关于手绘">关于手绘</h3>
+<p>有些时候，我们会自己在纸币上绘制一些东西来说明我们想要说明白的东西，这个时候，我们就需要借助一些工具来将我们所绘制的东西拷贝到我们的电脑上。拍照么？太 Low 了，而且会出现很多不必要的元素。</p>
+<p>这里我为你介绍我所使用的工具， Readdle 所推出的 Scanner Pro（你也可以使用扫描全能王、印象笔记的扫描宝软件，三者的功效大体相同），这里我使用印象笔记推出的扫描宝（它既有 Android 也有 iOS）来做演示。</p>
+<p>首先，将你所绘制的内容放在一个有较大反差的平面上，然后拿起手机，打开软件，俯视对准你所绘制的内容。</p>
+<p><img src="https://postimg.aliavv.com/mbp/elb8l.jpg" alt=""></p>
+<p>软件会自动识别文件的边缘，并对扫描到的文件进行锐化处理，确保文字的清晰，最终可以得到这样的一张的图片。</p>
+<p><img src="https://postimg.aliavv.com/mbp/79106.jpg" alt=""></p>
+<p>对图片进行简单的裁剪的处理后，我们就可以得到自己想要的东西了。</p>
+<p>借助扫描工具，可以让我们用手绘来产生我们需要的图片而不需要购买专门的扫描仪。</p>
+<h2 id="关于存图">关于存图</h2>
+<h3 id="本地存储-or-网络存储">本地存储 or 网络存储</h3>
+<p>根据你写作的工具不同，你针对的存储方式有所不同，一般来说，我们使用 Word 进行写作的时候，我们的图片就直接嵌入在 Word 中，不过如果你使用的是 Markdown 编辑器，一般情况下，我们需要将图片存放网络上方便我们使用 Markdown 的语法引用。</p>
+<p>具体使用什么样的存储方式根据你的写作工具来定义即可。比如说，我使用 Ulyssess 写作，图片就会存放在 Ulyssess 中。</p>
+<h3 id="自建图床-or-外链图床">自建图床 or 外链图床</h3>
+<p>既然图片需要存放在网络上，就涉及到一个问题，你的图片是自建一个图床，还是用别人提供的外链图床。</p>
+<p>对于绝大多数人来说，可能选择的都是外链图床，但是我建议你，使用自建图床，使用自建图床可以避免外链图床突然收紧链接规则，从而导致你的图片无法访问，从而你需要做多次工作。</p>
+<p>好在目前有一些工具，可以帮助我们更加方便的自建图床。</p>
+<h4 id="iPic">iPic</h4>
+<p>我用的笔记本是 MacBook Pro，我用的图床工具是 iPic 。</p>
+<p><img src="https://postimg.aliavv.com/mbp/l68o8.jpg" alt=""></p>
+<p>iPic 通过简单的配置，就可以实现快捷键将图片上传到自建的图床（阿里云 OSS、又拍云、七牛云等）。</p>
+<p>具体的配置细节，我就不在这篇文章中讲解，大家可以前往其官网查看：<a href="https://toolinbox.net/iPic/" target="_blank" rel="noopener">https://toolinbox.net/iPic/</a></p>
+<h4 id="Pic-Go">Pic Go</h4>
+<p>macOS 用户可以使用 iPic，Windows 和 Linux 用户也无需担心，你们也有类似的工具，在 Github 上开源了一个项目：Picgo，你可以使用 PicGo 实现类似的功能。</p>
+<p><img src="https://postimg.aliavv.com/mbp/2cqdw.jpg" alt=""></p>
+<p>具体的使用说明，你可以查看其项目主页：<a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">https://github.com/Molunerfinn/PicGo</a></p>
+<h2 id="关于贴图">关于贴图</h2>
+<p>在完成了</p>
+<h2 id="总结">总结</h2>
+<p>在这篇文章中，我们从 「选图」、「做图」、「存图」 三个方面讨论了关于文章的配图；学习了如何找可以免费商用的图片，如何绘制自己的平台，如何将图片传到云端。</p>
+<h2 id="提问">提问</h2>
+<p>除了 PicGo 和 iPic ，你是否知道还有什么工具可以帮助我们更好的传图片呢？</p>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+    <div id="gitalk-container"></div>
+    <script type="text/javascript">
+        var gitalk = new Gitalk({
+          clientID: 'c49d1cfe9b46215ec23a',
+          clientSecret: 'f62fa454b246928096520769187fc9115c8c6ed3',
+          repo: 'TheWriter',
+          owner: 'bestony',
+          admin: ['bestony'],
+          id: location.pathname,
+          distractionFreeMode: 'true'
+        })
+        gitalk.render('gitalk-container')
+    </script>
+
+  </div>
+
+
+
+<script src="/js/book-post.js"></script>
+
+        </div>
+      </div>
+
+      <div class="column col-2 hide-lg">
+        <div class="book-toc">
+  <div class="book-tocbot">
+  </div>
+  <div class="book-tocbot-menu">
+    <a class="book-toc-expand" onclick="expand_toc()">展开所有</a>
+    <a onclick="go_top()">返回顶部</a>
+    <a onclick="go_bottom()">前往底部</a>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "收起所有"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "展开所有"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
